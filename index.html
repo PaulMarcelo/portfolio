@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@300&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+  <title>Portfolio</title>
+</head>
+
+<body class="dark">
+  <header class="header">
+    <div class="switches">
+      <div id="toggle-theme" class="toggle-theme">
+        <i id="toggle-icon" class="fa fa-sun toggle-theme__icon"></i>
+        <p id="toggle-text" class="toggle-theme__text">Modo Claro</p>
+      </div>
+      <div id="toggle-color" class="colors" style="display: none;">
+        <div id="buttons">
+          <button data-language="en">Inglés</button>
+          <button data-language="es">Español</button>
+        </div>
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <div class="card card--project">
+      <div class="card__image-container">
+        <img src="assets/images/profile.jpg" alt="" class="card__image" />
+      </div>
+
+      <div class="project">
+        <h2 class="card__title no-margin">Paul Yaguachi</h2>
+
+        <p class="card__subtitle" data-section="profile" data-value="rol">Desarrollador de software</p>
+        <ul class="social-links">
+          <li class="social-links__item">
+            <a href="https://www.linkedin.com/in/paul-yaguachi-b38b7056/" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-linkedin"></i>
+            </a>
+          </li>
+          <li class="social-links__item">
+            <a href="https://github.com/PaulMarcelo" target="_blank" rel="noopener noreferrer">
+              <i class="fa fa-github"></i>
+            </a>
+          </li>
+        </ul>
+        <div class="card__body">
+          <p class="card__text" data-section="profile" data-value="description">
+            Soy un apasionado desarrollador de software con más de 10 años de experiencia en el campo tecnológico.<br />
+            Mi trayectoria profesional se ha centrado en diversos aspectos del desarrollo de aplicaciones,
+            desde proyectos robustos en el backend hasta experiencias fluidas en el frontend y aplicaciones móviles
+            nativas.<br/><br/>
+            En el backend, he trabajando con Java y Python, diseñando sistemas escalables y eficientes.<br/>
+            En el frontend, he utilizado JSF para crear interfaces dinámicas, así como Angular para aplicaciones web
+            complejas que ofrecen una excelente experiencia de usuario.
+            <br />
+            En los últimos años, mi enfoque se ha ampliado al desarrollo de aplicaciones móviles nativas. <br />
+            He desarrollado aplicaciones tanto para Android utilizando Kotlin como para iOS utilizando Swift,
+            aprovechando las mejores prácticas de cada plataforma para crear aplicaciones rápidas, seguras y fáciles de
+            usar.
+            <br /><br/>
+            Me considero una persona proactiva y siempre estoy abierto a aprender nuevas tecnologías y explorar nuevos
+            campos laborales. <br />
+            Creo firmemente en la mejora continua y en la adaptabilidad como clave para el éxito en el mundo tecnológico
+            en constante evolución.
+          </p>
+        </div>
+      </div>
+    </div>
+    <section class="column column--left">
+      <!-- PROFILE CARD -->
+      <div class="card card--experience">
+        <h2 class="card__title">Experiencia</h2>
+        <div class="experience">
+          <i class="fa fa-briefcase" class="experience__image"></i>
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="last-job-dates">
+              Abr. 2018 - Actualidad, Quito
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="last-job-title">
+              Kruger Corp. - Consultor técnico
+            </h3>
+            <p class="experience__description" data-section="experience" data-value="last-job-description">
+              Desarrollo de un aplicativo móvil Android e iOS para la autenticación biométrica. <br>
+              Desarrollo de un aplicativo móvil Android para el control de vigencia de productos.
+            </p>
+          </div>
+        </div>
+        <div class="experience">
+          <i class="fa fa-briefcase" class="experience__image"></i>
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="second-job-dates">
+              Jun. 2015 - Abr. 2018, Quito
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="second-job-title">
+              NeuralSolut S.A - Desarollador Semi Senior
+            </h3>
+            <p class="experience__description" data-section="experience" data-value="second-job-description">
+              Desarrollo de un aplicativo móvil Android para la toma de pedidos y su plataforma web.<br>
+              Desarrollo de un aplicativo móvil Android para punto de venta.
+            </p>
+          </div>
+        </div>
+        <div class="experience">
+          <i class="fa fa-briefcase" class="experience__image"></i>
+          <div class="experience__info">
+            <p class="experience__time" data-section="experience" data-value="first-job-dates">
+              Jun. 2014 - Ago. 2014, Quito
+            </p>
+            <h3 class="experience__job" data-section="experience" data-value="first-job-title">
+              Ministerio de Finanzas - Pasantias
+            </h3>
+            <p class="experience__description" data-section="experience" data-value="first-job-description">
+              Desarrollo de plataforma web en Asp.net para la gestión de cursos de capacitación.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="card card--hobbies">
+        <h2 class="card__title">Hobbies</h2>
+        <div class="hobbie">
+          <div class="card__image-container">
+            <img src="assets/images/Hobbie.jpg" alt="" class="card__image" />
+          </div>
+          <h3 class="hobbie__title">Disfrutar de la naturaleza</h3>
+          <p class="card__text">
+            Me gusta caminar por la naturaleza y apreciar lo imponente y hermonso que es el mundo.
+          </p>
+        </div>
+      </div>
+    </section>
+    <section class="column column--right">
+      <div class="card">
+        <h2 class="card__title no-margin">Back End</h2>
+        <small> Experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-label">0</span>
+            <span class="skills__end-label">10</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Java</p>
+            <div class="skills__bar skills__bar--80"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Python</p>
+            <div class="skills__bar skills__bar--50"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">C#</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h2 class="card__title no-margin">Front End</h2>
+        <small>Experiencia</small>
+        <div class="skills">
+          <div class="skills__header">
+            <span class="skills__start-label">0</span>
+            <span class="skills__end-label">10</span>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">HTML</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">CSS</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">JavaScript</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Angular</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">JSF</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+        </div>
+      </div>
+      <div class="card">
+        <h2 class="card__title no-margin">Móvil</h2>
+        <small>Experiencia</small>
+        <div class="skills__header">
+          <span class="skills__start-label">0</span>
+          <span class="skills__end-label">10</span>
+        </div>
+        <div class="skills">
+          <div class="skills__item">
+            <p class="skills__tech">Kotlin</p>
+            <div class="skills__bar skills__bar--90"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Swift</p>
+            <div class="skills__bar skills__bar--40"></div>
+          </div>
+          <div class="skills__item">
+            <p class="skills__tech">Flutter</p>
+            <div class="skills__bar skills__bar--70"></div>
+          </div>
+        </div>
+      </div>
+      <div class="card card--project">
+        <div class="card__image-container">
+          <img src="assets/images/project.jpg" alt="Landing page project" class="card__image" />
+        </div>
+        <div class="project">
+          <div class="project__tags">
+            <span class="project__tag">#Android</span>
+            <span class="project__tag">#Kotlin</span>
+            <span class="project__tag">#JetpackCompose</span>
+            <span class="project__tag">#Movil</span>
+          </div>
+
+          <h2 class="card__title no-margin">Lista de tareas</h2>
+          <p class="card__text">
+            Esta es una aplicación sencilla y diseñada para ayudar a recordar tareas pendientes.<br>
+            Con nuestra aplicación, puedes crear una lista de tareas y a medida que las completas las puedes ir marcando como realizadas.
+          </p>
+          <p class="card__text">
+            El objetivo es proporcionar una herramienta útil y fácil de usar para las tareas del día a día.
+          </p>
+          <div class="buttons">
+            <a href="https://play.google.com/store/apps/details?id=ec.com.pmyb.checklistapp" class="button button--primary" target="_blank" rel="noopener noreferrer">Demo</a>
+            <a href="https://github.com/PaulMarcelo/CheckListApp" class="button button--ghost" target="_blank" rel="noopener noreferrer">Código</a>
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <footer class="card footer">
+      <p id="footer-copy" class="footer__copy">Quito - Ecuador</p>
+
+    </footer>
+  </main>
+  <script src="https://kit.fontawesome.com/a0ab449b77.js" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+
+</html>
